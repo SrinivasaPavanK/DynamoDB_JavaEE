@@ -1,4 +1,6 @@
 
+Amazon DynamoDB
+
 
 DynamoDB differs from other Amazon services by allowing developers to purchase a service based on throughput, rather than storage. Although the database does not automatically scale, 
 administrators can request more throughput and DynamoDB will spread the data and traffic over a number of servers using solid-state drives, allowing predictable performance. It offers integration
