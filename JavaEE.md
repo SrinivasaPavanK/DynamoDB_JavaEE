@@ -58,9 +58,9 @@ Pitfalls:
 =========
 
 
-#1: Ignore the default lock of a @Singleton: Java EE uses a container managed write lock as default.This results in a serialized processing of all method calls and lowers the scalability and performance of the application. 
+1: Ignore the default lock of a @Singleton: Java EE uses a container managed write lock as default.This results in a serialized processing of all method calls and lowers the scalability and performance of the application. 
 This is in the case of implementing  EJB Singleton.
 
-#2: The primary disadvantage of JavaEE is also it’s standardization. Because it’s a committee process the time to respond to industry changes is slow.
+2: The primary disadvantage of JavaEE is also it’s standardization. Because it’s a committee process the time to respond to industry changes is slow.
 
-#3: Out of memory Errors: Application crash because of low performance
+3: Out of memory Errors: Application crash because of low performance
