@@ -1,5 +1,5 @@
 Java EE
-
+=======
 
 Java Platform, Enterprise Edition (Java EE) is the standard in community-driven enterprise software. Java EE is developed using the Java Community Process, with contributions from industry experts, commercial and open source organizations, Java User Groups, and countless individuals. Each release integrates new features that align with industry needs, improves application portability, and increases developer productivity.
 
@@ -31,10 +31,9 @@ Enterprise applications can consist of combinations of the following:
 6.Additional JAR files containing dependent classes or other components required by the application
 
 
-============
-Advantages:
-============
 
+Advantages:
+===========
 
 
 The J2EE platform provides the following:
@@ -55,9 +54,8 @@ By offering one platform with faster solution delivery time to market, freedom o
 
 
 
-=========
 Pitfalls:
-==========
+=========
 
 
 #1: Ignore the default lock of a @Singleton: Java EE uses a container managed write lock as default.This results in a serialized processing of all method calls and lowers the scalability and performance of the application. 
