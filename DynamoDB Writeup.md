@@ -6,6 +6,9 @@ DynamoDB differs from other Amazon services by allowing developers to purchase a
 administrators can request more throughput and DynamoDB will spread the data and traffic over a number of servers using solid-state drives, allowing predictable performance. It offers integration
 with Hadoop via Elastic MapReduce.
 
+#Configuring Dynamo DB in Eclipse using Plugin:
+
+http://java.awsblog.com/post/TxPTR0HTAPBTM2/DynamoDB-Local-Test-Tool-Integration-for-Eclipse
 
 #Advantages:
 
