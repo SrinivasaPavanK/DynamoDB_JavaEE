@@ -5,8 +5,11 @@ DynamoDB_JavaEE
 One Page document describing each of the topic and their advantages and pitfalls for Dynamo DB and Java EE
 
 
-#Installing Plugin
+#Configuring Dynamo DB in Eclipse using Plugin:
 
+Please follow the below url for install instructions
+
+http://java.awsblog.com/post/TxPTR0HTAPBTM2/DynamoDB-Local-Test-Tool-Integration-for-Eclipse
 
 
 #Build and Deployment:
