@@ -8,6 +8,8 @@ with Hadoop via Elastic MapReduce.
 
 #Configuring Dynamo DB in Eclipse using Plugin:
 
+Please follow the below url for install instructions
+
 http://java.awsblog.com/post/TxPTR0HTAPBTM2/DynamoDB-Local-Test-Tool-Integration-for-Eclipse
 
 #Advantages:
