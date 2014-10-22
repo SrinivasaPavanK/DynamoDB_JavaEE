@@ -1,3 +1,5 @@
+21/10/2014
+
 #Project: Spring Web DynamoDB
 
 - Create the tables and upload the data to DynamoDB using CreateTablesUploadData.java
