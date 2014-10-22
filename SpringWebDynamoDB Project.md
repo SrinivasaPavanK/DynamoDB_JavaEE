@@ -22,17 +22,25 @@ Populate the src/main/resources/environment.properties file with DynamoDB endpoi
 For example: 
 I have registered for Amazon DynamoDB and got the below credentials
 
-amazon.dynamodb.endpoint=http://localhost:8000/
-amazon.aws.accesskey=AKIAJBCO4IAXQWITNKNA
-amazon.aws.secretkey=3cX3qrH5IFthlkZAfhWcZ7jyh6ESib2aEnvtF4WP
+amazon.dynamodb.endpoint= http://localhost:8000/
+
+amazon.aws.accesskey= AKIAJBCO4IAXQWITNKNA
+
+amazon.aws.secretkey= 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
 
 
 #Build and deploy Instructions:
 
+
 1.Run the file CreateTablesUploadData.java to create tables and load data.
+
 2.Run the command mvn jetty:run against pom.xml
-2.Access the URL http://localhost:8080 
+
+3.Access the URL http://localhost:8080 
+
 
 http://localhost:8080/forums/search/findByThreads?threads=2
+
 http://localhost:8080/forums/search/findByThreads?threads=0
+
 http://localhost:8080/forums/search/findByCategory?category=Amazon Web Services
