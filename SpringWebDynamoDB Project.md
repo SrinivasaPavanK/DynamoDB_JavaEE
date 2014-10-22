@@ -19,16 +19,16 @@ the requested service will be dispalyed on Browser.
 
 #Before Building the Application:
 
-Populate the src/main/resources/environment.properties file with DynamoDB endpoint, and AWS credentials.
+Populate the src/main/resources/environment.properties file with DynamoDB endpoint, and AWS credentials
 
-For example: 
-I have registered for Amazon DynamoDB and got the below credentials
+Signup for http://aws.amazon.com/dynamodb/ and get the credentials(for security reason cannot share on github)
 
-amazon.dynamodb.endpoint= http://localhost:8000/
 
-amazon.aws.accesskey= AKIAJBCO4IAXQWITNKNA
+amazon.dynamodb.endpoint= <>
 
-amazon.aws.secretkey= 3cX3qrH5IFthlkZAfhWcZ7jyh6ESib2aEnvtF4WP
+amazon.aws.accesskey= <>
+
+amazon.aws.secretkey=<>
 
 
 #Build and deploy Instructions:
